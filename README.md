@@ -12,7 +12,7 @@ This script is designed to be run using cronjobs on Linux
 
 1. Put file into the base directory of the fx server.
 2. Edit the server_restart.sh and name the screen session whatever you want it to be.
-3. Make the script executable `chmod u+x server_restart.sh`.
+3. Make the script executable `chmod u+x server_restart.sh`
 4a. If your server is already running, run the script to restart it and make sure you have installed it right - Server should stop and restart. 
 4b. If your server is not running, Run the script - Server should start a new screen session named after what you have put the the file you edited.
 5. Edit the servers cronjobs `crontab -e` and add this line to the bottom.
